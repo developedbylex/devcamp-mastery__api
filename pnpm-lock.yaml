@@ -42,8 +42,8 @@ importers:
         specifier: ^7.5.1
         version: 7.5.1(express@4.21.2)
       express-xss-sanitizer:
-        specifier: ^2.0.0
-        version: 2.0.0
+        specifier: ^2.0.1
+        version: 2.0.1
       helmet:
         specifier: ^8.1.0
         version: 8.1.0
@@ -301,8 +301,8 @@ packages:
     peerDependencies:
       express: '>= 4.11'
 
-  express-xss-sanitizer@2.0.0:
-    resolution: {integrity: sha512-C9ZBsm3NuLzUaq7oAtU5Yboj2BQZEuhXShT1/dtUddVSXLPWUxgbpAWvaoDJ2fWH35NBE+/Ardjty9lQofLS8g==}
+  express-xss-sanitizer@2.0.1:
+    resolution: {integrity: sha512-MxilPbRPkATSi3S+3wM7lw1paFN2hPZmYNf2v9d+gTF+6XwgWSCnsJVtUrEFPzyRvUHKsktBQ3CnFYezObl+BA==}
 
   express@4.21.2:
     resolution: {integrity: sha512-28HqgMZAmih1Czt9ny7qr6ek2qddF4FclbMzwhCREB6OFfH+rXAnuNCwo1/wFvrtbgsQDb4kSbX9de9lFbrXnA==}
@@ -986,7 +986,7 @@ snapshots:
     dependencies:
       express: 4.21.2
 
-  express-xss-sanitizer@2.0.0:
+  express-xss-sanitizer@2.0.1:
     dependencies:
       sanitize-html: 2.13.1
 
