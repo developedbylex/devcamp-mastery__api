@@ -24,7 +24,7 @@
 		"express-xss-sanitizer": "^2.0.1",
 		"helmet": "^8.1.0",
 		"hpp": "^0.2.3",
-		"jsonwebtoken": "^9.0.2",
+		"jsonwebtoken": "^9.0.3",
 		"mongoose": "^9.0.1",
 		"node-geocoder": "^4.4.1",
 		"nodemailer": "^7.0.11",
