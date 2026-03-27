@@ -42,8 +42,8 @@ importers:
         specifier: ^8.2.1
         version: 8.2.1(express@5.2.1)
       express-xss-sanitizer:
-        specifier: ^2.0.1
-        version: 2.0.1
+        specifier: ^2.0.2
+        version: 2.0.2
       helmet:
         specifier: ^8.1.0
         version: 8.1.0
@@ -54,7 +54,7 @@ importers:
         specifier: ^9.0.2
         version: 9.0.2
       mongoose:
-        specifier: ^9.2.0
+        specifier: ^9.1.4
         version: 9.2.0
       node-geocoder:
         specifier: ^4.4.1
@@ -300,8 +300,8 @@ packages:
     peerDependencies:
       express: '>= 4.11'
 
-  express-xss-sanitizer@2.0.1:
-    resolution: {integrity: sha512-MxilPbRPkATSi3S+3wM7lw1paFN2hPZmYNf2v9d+gTF+6XwgWSCnsJVtUrEFPzyRvUHKsktBQ3CnFYezObl+BA==}
+  express-xss-sanitizer@2.0.2:
+    resolution: {integrity: sha512-6SYfX7Q4jagOVuxaExf2J6geM79KQwzluCIEYLEkp0FN40HctzkMxgdyDE0bEDi3KMyQQMOP3nGUZqib5hb13w==}
 
   express@5.2.1:
     resolution: {integrity: sha512-hIS4idWWai69NezIdRt2xFVofaF4j+6INOpJlVOLDO8zXGpUVEVzIYk12UUi2JzjEzWL3IOAxcTubgz9Po0yXw==}
@@ -627,8 +627,8 @@ packages:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
 
-  postcss@8.5.6:
-    resolution: {integrity: sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==}
+  postcss@8.5.8:
+    resolution: {integrity: sha512-OW/rX8O/jXnm82Ey1k44pObPtdblfiuWnrd8X7GJ7emImCOstunGbXUpp7HdBrFQX6rJzn3sPT397Wp5aCwCHg==}
     engines: {node: ^10 || ^12 || >=14}
 
   proxy-addr@2.0.7:
@@ -1005,7 +1005,7 @@ snapshots:
       express: 5.2.1
       ip-address: 10.0.1
 
-  express-xss-sanitizer@2.0.1:
+  express-xss-sanitizer@2.0.2:
     dependencies:
       sanitize-html: 2.13.1
 
@@ -1332,7 +1332,7 @@ snapshots:
 
   picomatch@2.3.1: {}
 
-  postcss@8.5.6:
+  postcss@8.5.8:
     dependencies:
       nanoid: 3.3.11
       picocolors: 1.1.1
@@ -1387,7 +1387,7 @@ snapshots:
       htmlparser2: 8.0.2
       is-plain-object: 5.0.0
       parse-srcset: 1.0.2
-      postcss: 8.5.6
+      postcss: 8.5.8
 
   semver@7.7.2: {}
 
