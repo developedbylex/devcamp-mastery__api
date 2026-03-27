@@ -54,14 +54,14 @@ importers:
         specifier: ^9.0.2
         version: 9.0.2
       mongoose:
-        specifier: ^9.2.0
+        specifier: ^9.1.4
         version: 9.2.0
       node-geocoder:
         specifier: ^4.4.1
         version: 4.4.1
       nodemailer:
-        specifier: ^7.0.11
-        version: 7.0.11
+        specifier: ^8.0.4
+        version: 8.0.4
       slugify:
         specifier: ^1.6.6
         version: 1.6.6
@@ -574,8 +574,8 @@ packages:
     resolution: {integrity: sha512-krx50Gxl4yBgMBhfUhOuNwStzLi+gAYaa46gs0e+ftTvaqLsjKYDFVxC8ff6RLc2f11Gp7Y+R1mkzwsE2c0chw==}
     engines: {node: '>=18'}
 
-  nodemailer@7.0.11:
-    resolution: {integrity: sha512-gnXhNRE0FNhD7wPSCGhdNh46Hs6nm+uTyg+Kq0cZukNQiYdnCsoQjodNP9BQVG9XrcK/v6/MgpAPBUFyzh9pvw==}
+  nodemailer@8.0.4:
+    resolution: {integrity: sha512-k+jf6N8PfQJ0Fe8ZhJlgqU5qJU44Lpvp2yvidH3vp1lPnVQMgi4yEEMPXg5eJS1gFIJTVq1NHBk7Ia9ARdSBdQ==}
     engines: {node: '>=6.0.0'}
 
   nodemon@3.1.10:
@@ -1287,7 +1287,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  nodemailer@7.0.11: {}
+  nodemailer@8.0.4: {}
 
   nodemon@3.1.10:
     dependencies:
