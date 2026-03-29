@@ -27,7 +27,7 @@
 		"jsonwebtoken": "^9.0.2",
 		"mongoose": "^9.1.4",
 		"node-geocoder": "^4.4.1",
-		"nodemailer": "^7.0.11",
+		"nodemailer": "^8.0.4",
 		"slugify": "^1.6.6"
 	},
 	"devDependencies": {
